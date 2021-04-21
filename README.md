@@ -9,7 +9,7 @@ npm i weatherjslib
 
 Example:
 ```js
-const weatherjslib = require('./src/Classes/Weather')
+const weatherjslib = require('weatherjslib')
 const weather = new weatherjslib('API-KEY')
 weather.forecast.get('London', 5).then(forecast => console.log(forecast))
 weather.current.get('San Francisco').then(current => console.log(current))
