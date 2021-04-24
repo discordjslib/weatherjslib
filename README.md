@@ -1,5 +1,5 @@
 # weatherjslib
-A node.js library which interacts with the [weather-api](https://www.weatherapi.com)
+A node.js library which interacts with the [weather api](https://www.weatherapi.com)
 
 Install: 
 ```
