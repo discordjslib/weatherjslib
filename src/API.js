@@ -11,7 +11,8 @@ exports.forecast = async (key, location, days) => {
     return json
 }
 exports.sport = async (key, location) => {
-    const sport = await fetch(`${url}sport.json?key=${key}&q=${location}}`)
+    const sport = await fetch(`${url}sports.json?key=${key}&q=${location}}`)
     const json = sport.json()
     return json
 }
+
