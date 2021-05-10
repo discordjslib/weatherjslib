@@ -1,5 +1,4 @@
-# The umbrella class of all classes in the library
-
+# Main Class
 ## Properties:
 `.key` returns the api key provided in the constructor
 
